@@ -1,0 +1,6 @@
+trace:
+a.面向reagent的tool进行编排 让ai按照顺序调用tool,必须调用list-skill来获得对应的系统
+1. 依然是通过tool的方式 系统调用list-skills,这个tool聚合了所有描述
+2. react模式 然后再调用skill-view
+3. 然后选择调用skill-command 具体执行的资源层, 执行能力本身是tool当中内部调用的
+b.提示词进行引导,agent开发当中所有外部的概念都保持一致
